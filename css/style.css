@@ -1,19 +1,42 @@
 /* Typography */
-body {background:#fff; font-size:14px; line-height:1.5; font-family:'Poppins', Arial, sans-serif; color:#555;-webkit-font-smoothing: antialiased;}
+body {
+	background:#fff; 
+	font-size:14px; 
+	line-height:1.5; 
+	font-family:'Poppins', Arial, sans-serif; 
+	color:#555;
+	-webkit-font-smoothing: antialiased;
+}
 
-h1, h2, h3, h4, h5, h6{-webkit-font-smoothing:antialiased; color:#333;}
+h1, h2, h3, h4, h5, h6{
+	-webkit-font-smoothing:antialiased; 
+	color:#333;
+}
+
 h3{ font-size:22px;}
 
 label{font-weight: 500;}
 
 /*General links color*/
-a {color: #06C;text-decoration: none;-webkit-transition: all 0.2s ease;transition: all 0.2s ease; outline:none;}
-a:hover,a:focus {color: #111;text-decoration: none; outline:none;}
+a {
+	color: #06C;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	outline:none;
+}
+
+a:hover,a:focus {
+	color: #111;
+	text-decoration: none; 
+	outline:none;
+}
 
 a.link_normal{
 	position:relative;
 	font-weight:500;
 }
+
 a.link_normal:after{
 	font-style: normal;
  	font-weight: normal;
@@ -23,12 +46,15 @@ a.link_normal:after{
 	position:relative;
 	margin-left:3px;
 }
+
 p {
 	margin: 0 0 25px 0;
 }
+
 strong {
 	font-weight: 600;
 }
+
 .main_title {
 	background-color:rgba(0, 37, 74, 0.8); 
 	display:inline-block; 
@@ -39,6 +65,7 @@ strong {
 	bottom:0;
 	z-index:9;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 25px;
@@ -46,13 +73,13 @@ hr {
   border-top: 1px dotted #ddd;
 }
 
-/*-------- 1.2 Buttons --------*/
+/* Buttons */
 a.button_intro, .button_intro  {
 	border: none;
 	font-family: inherit;
 	font-size: inherit;
 	color:#fff !important;
-	background:#FF3333;
+	background:#000000;
 	cursor: pointer;
 	padding: 12px 35px;
 	display: inline-block;
@@ -71,7 +98,7 @@ a.button_intro, .button_intro  {
 	transition: all 0.5s;
 }
 a.button_intro:hover, .button_intro:hover {
-	background: #06C;
+	background: rgb(0, 199, 166);
 }
 a.btn_1, .btn_1{
 	border: none;
@@ -110,7 +137,7 @@ a.btn_1.medium, .btn_1.medium  {
 	font-size:14px;
 }
 a.btn_1:hover, .btn_1:hover {
-	background: #FF3333;
+	background: #000000;
 }
 a.btn_quote{
 	border: none;
@@ -166,7 +193,7 @@ a.btn_full, .btn_full{
 	margin-bottom:10px;
 }
 a.btn_full:hover, .btn_full:hover{
-	background: #FF3333;
+	background: #000000;
 }
 a.btn_contact, .btn_contact{
 	border: none;
@@ -174,7 +201,7 @@ a.btn_contact, .btn_contact{
 	font-size: inherit;
 	color:#fff;
 	width:100%;
-	background: #FF3333;
+	background: #000000;
 	cursor: pointer;
 	padding: 12px 20px;
 	display: inline-block;
@@ -204,7 +231,7 @@ a#phone_top {
 	position: relative;
 	font-weight: 600;
 	margin-right: 10px;
-    color: #FF3333!important;
+    color: #000000!important;
     padding-left: 22px;
 }
 a#phone_top:hover {
@@ -278,7 +305,7 @@ ul#top_links a{
 	color:#555;
 }
 ul#top_links a:hover{
-	color:#FF3333;
+	color:#000000;
 }
 /*Animate Sticky header*/
 .animated {
@@ -740,7 +767,7 @@ footer ul{
 }
 #social_footer ul li a:hover{
 	background:#fff;
-	color:#FF3333;
+	color:#000000;
 }
 #contact_bg{
 	background:url(../img/map_footer.png) no-repeat bottom center;
@@ -765,7 +792,7 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
 	 font-size:20px;
   	left:0;
   	top:-5px;
-	color:#FF3333;
+	color:#000000;
 }
 #address_footer:before{
 	content: "\e009";
@@ -905,7 +932,7 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
 	margin:0 0 -15px 0;
 }
 .phone_feat a{
-	color:#FF3333;
+	color:#000000;
     font-weight: 700;
 }
 .phone_feat a:hover{
@@ -1000,7 +1027,7 @@ video {
     color:#fff;
 	width: 100%;
 	z-index:99;
-	border-bottom:3px solid #FF3333;
+	border-bottom:3px solid #000000;
 }
 #book {
 	background: rgba(0, 0, 0, 0.75);
@@ -1060,7 +1087,7 @@ ul.feat#about li i{
 	left:25px;
 	top:25px;
 	font-size:42px;
-	color:#FF3333;
+	color:#000000;
 }
 .promo_full_wp div h3 {
 	font-size: 48px;
@@ -1195,7 +1222,7 @@ ul.feat#about li i{
 	color: #fff;
 }
 .team-item-detail-inner .social li a:hover {
-	color: #FF3333;
+	color: #000000;
 }
 .team-item-info {
 	padding-top: 15px;
@@ -1272,7 +1299,7 @@ ul#cat_nav li a:before{
 	content: "\35";
 }
 img.img-responsive.border{
-	border-bottom:3px solid #FF3333;
+	border-bottom:3px solid #000000;
 }
 ul.feat{
 	list-style:none;
@@ -1301,7 +1328,7 @@ ul.feat li img{
 	background:#fafafa;
 	padding:25px;
 	margin-bottom:20px;
-	border-top: 3px solid #FF3333;
+	border-top: 3px solid #000000;
 } 
 .box_style_4 ul{
 	padding:0 0 0 25px;
@@ -1422,7 +1449,7 @@ ul.list_ok li:before {
   font-family: 'ElegantIcons';
   font-size:14px;
   content: "\4e";
-  color:#FF3333;
+  color:#000000;
   position:absolute;
   left:0;
   top:0;
@@ -1473,7 +1500,7 @@ ul.list_2 li:before {
   font-family: 'ElegantIcons';
   font-size:14px;
   content: "\5c";
-  color:#FF3333;
+  color:#000000;
   position:absolute;
   left:0;
   top:0;
@@ -1516,7 +1543,7 @@ ul.list_2 li:before {
 	font-weight:500;
 }
 .bg_content div a i{
-	color:#FF3333;
+	color:#000000;
 	font-size:60px;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -1826,7 +1853,7 @@ blockquote.styled{
 
 figure.animated {
 	overflow: hidden;
-	border-bottom: 3px solid #FF3333;
+	border-bottom: 3px solid #000000;
 }
 figure.animated a img{
 	-webkit-transform: scale(1);
