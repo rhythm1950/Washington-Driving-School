@@ -457,33 +457,7 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
 	font-size:32px;
     font-weight: 300;
 }
-.box_style_1.home {
-	padding:20px;
-	padding-bottom:5px;
-}
-.box_style_1.home ul.feat li{
-	border-bottom:1px dotted #ccc;
-	margin-bottom:15px;
-}
-.box_style_1.home ul.feat li p{
-	margin-bottom:15px;
-}
-.box_style_1.home ul.feat li:last-child{
-	border-bottom:0;
-}
-.box_style_1.home ul.feat li:last-child p{
-	margin-bottom:0;
-}
-.box_style_1.home h3{
-	background-color:#333;
-	text-align:center;
-	color:#fff;
-	padding:15px 10px ;
-	text-transform:uppercase;
-	font-size:18px;
-	margin:-20px -20px 20px -20px;
-	border-bottom:2px solid #fff;
-}
+
 #how_to{
 	background: #629976 url(../img/pattern_green.png) repeat;
 	padding:60px 0 30px 0;
@@ -879,27 +853,6 @@ ul#cat_nav li a:before{
 }
 img.img-responsive.border{
 	border-bottom:3px solid #000000;
-}
-ul.feat{
-	list-style:none;
-	margin: 0 0 20px 0;
-	padding:0;
-}
-ul.feat li{
-	padding-left:70px;
-	position:relative;
-}
-ul.feat li img{
-	position:absolute;
-	left:0;
-	top:0;
-}
-.strip h4{
-	margin-top:0;
-}
-.strip{
-	padding:40px 0 20px 0;
-	border-top:1px dashed #ddd;
 }
 
 /* Contacts */
