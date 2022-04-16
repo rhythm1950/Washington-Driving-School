@@ -458,52 +458,10 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
     font-weight: 300;
 }
 
-#how_to{
-	background: #629976 url(../img/pattern_green.png) repeat;
-	padding:60px 0 30px 0;
-	color:#fff;
-	font-size:14px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-	font-weight:500;
-}
-#how_to h3{
-	font-family: 'Gochi Hand', cursive;
-	color: #fff;
-	font-size:36px;
-	font-weight:normal;
-	margin-bottom:0;
-}
-#how_to h4{
-	color:#fff;
-	text-transform:uppercase;
-	font-size:18px;
-	font-weight:bold;
-	color: #FFC;
-}
-#how_to h4:before,#how_to h4:after {
-	display: inline-block;
-    width: 20px;
-    height: 1px;
-    content: '';
-    vertical-align: middle;
-    background: rgba(255,255,255,0.5);
-}
-#how_to h4:before{
-    margin-right: 10px;
-}
-#how_to h4:after {
-    margin-left: 10px;
-}
 #feat_home{
 	background-color: #f3f3f3;
 }
-.box_feat_2{
-	text-align:center;
-	padding:30px 30px 0 30px;
-}
-.box_feat_2 h3{
-	color:#629976;
-}
+
 .box_feat{
 	position:relative;
 	margin-bottom:35px;
