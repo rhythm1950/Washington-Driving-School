@@ -1180,7 +1180,7 @@ ul.list_2 li:before {
 	content:'';
 }
 
-/** Collapse **/   
+/* Collapse */   
 .panel {
   border-radius: 0;
   -webkit-box-shadow: none;
@@ -1200,14 +1200,14 @@ ul.list_2 li:before {
 
 .loader { margin-left:5px; position:absolute;}
 
-/** Blockquote **/   
+/* Blockquote */   
 blockquote.styled{
 	font-style: italic;
 	font-size: 16px;
 	 line-height: 1.7;
 }
 
-/** tabs **/   
+/* tabs */   
 .tab-content{
 	padding:30px; 
 	background-color:#fff; 
@@ -1227,12 +1227,12 @@ blockquote.styled{
   width: 100%;
   -webkit-tap-highlight-color: transparent;
   position: relative;
-  z-index: 1; }
+  z-index: 1; 
+}
   .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
-    -moz-backface-visibility: hidden;
  }
   .owl-carousel .owl-stage:after {
     content: ".";
@@ -1244,22 +1244,14 @@ blockquote.styled{
   .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
-    -webkit-transform: translate3d(0px, 0px, 0px); }
-  .owl-carousel .owl-wrapper,
-  .owl-carousel .owl-item {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0); }
+}
   .owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
     float: left;
-    -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none; }
+    -webkit-touch-callout: none; 
+}
   .owl-carousel .owl-item img {
     display: block;
     width: 100%; }
@@ -1361,7 +1353,6 @@ blockquote.styled{
   background: url("owl.video.play.png") no-repeat;
   cursor: pointer;
   z-index: 1;
-  -webkit-backface-visibility: hidden;
   transition: transform 100ms ease; }
 
 .owl-carousel .owl-video-play-icon:hover {
@@ -1428,7 +1419,7 @@ blockquote.styled{
       transition: opacity 200ms ease;
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-      background: #F33; }
+      background: rgb(0, 199, 166); }
 
 figure.animated {
 	overflow: hidden;
