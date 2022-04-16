@@ -996,7 +996,6 @@ ul.feat li img{
 #toTop:before{
 	font-style: normal;
   font-weight: normal;
-  font-family: "fontello";
   content: "\e899";
 }
 /*Spacing*/
@@ -1130,74 +1129,8 @@ ul.list_2 li:before {
 .bg_content div a:hover i{
     color: #222;
 }
-#position{
-	color:#fff;
-	font-size:13px;
-	margin-top:42px;
-}
-#position ul li:first-child{
-	padding-left:20px;
-}
-#position ul li:first-child:before{
-   content:'\eaf4';
-  font-style: normal;
-  font-weight: normal;
-  font-family: "fontello";
-  position:absolute;
-  left:0;
-  top:1px;
-  color:#fff;
-}
-#position ul{
-	margin:0;
-	padding:0;
-	float:right;
-}
-#position ul li a{
-	color:#fff;
-	opacity:0.7;
-}
-#position ul li a:hover{
-	color:#fff;
-	opacity:1;
-}
-#position ul li{
-	display:inline-block;
-	padding-right:8px;
-	margin-right:3px;
-	position:relative;
-}
-#position ul li:after{
-  content:'\e9ee';
-  font-style: normal;
-  font-weight: normal;
-  font-family: "fontello";
-  position:absolute;
-  right:0;
-  top:1px;
-}
-#position ul li:last-child:after{
-	content:'';
-}
 
-/* Collapse */   
-.panel {
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow:none;
-}
-.panel-title a {display:block; color:#333;}
-.panel-default > .panel-heading {
-  background-color: #f9f9f9;
-}
-.panel-heading {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-.panel-group .panel {
-  border-radius: 0;
-}
-
+/* Collapse */
 .loader { margin-left:5px; position:absolute;}
 
 /* Blockquote */   
