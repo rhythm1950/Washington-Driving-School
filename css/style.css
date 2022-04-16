@@ -1,37 +1,4 @@
-/*
-Theme Name: HOMEALARMS 
-Theme URI: http://www.ansonika.com/homealarms/
-Author: Ansonika
-Author URI: http://themeforest.net/user/Ansonika/
-
-[Table of contents] 
-
-1. SITE STRUCTURE and TYPOGRAPHY
-- 1.1 Typography
-- 1.2 Buttons
-- 1.3 Structure
-
-2. CONTENT
-- 2.1 Home
-- 2.2 About
-- 2.3 Services
-- 2.4 Quotation
-- 2.5 Quotation wizard
-- 2.6 Tips / faq
-- 2.7 Contact us
-
-3. COMMON
-- Tooltips
-- Containers styles
-- Form styles
-- Tabs, collapse
-- Success submit
-- etc
-
-/*============================================================================================*/
-/* 1.  SITE STRUCTURE and TYPOGRAPHY */
-/*============================================================================================*/
-/*-------- 1.1 Typography --------*/
+/* Typography */
 body {background:#fff; font-size:14px; line-height:1.5; font-family:'Poppins', Arial, sans-serif; color:#555;-webkit-font-smoothing: antialiased;}
 
 h1, h2, h3, h4, h5, h6{-webkit-font-smoothing:antialiased; color:#333;}
@@ -229,7 +196,6 @@ a.btn_contact:hover, .btn_contact:hover{
 	background: #06C;
 }
 
-/*-------- 1.3 Structure --------*/
 /* Header */
 #tag_line{
 	font-size:13px;
@@ -709,7 +675,7 @@ ul#top_links a:hover{
 	font-weight: 300;
 }
 
-/* Main area  */
+/* Main area */
 main {
 	background: #fff;
 	z-index:2;
@@ -819,10 +785,7 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
 	font-size:12px;
 }
 
-/*============================================================================================*/
-/* 2.  CONTENT  */
-/*============================================================================================*/
-/*-------- 2.1 Home --------*/
+/* Home */
 #full-slider-wrapper{
 	margin-top: 98px;
 }
@@ -1065,7 +1028,7 @@ video {
 	opacity: 0.8;
 }
 
-/*-------- 2.2 About us --------*/
+/* About us */
 #intro{
 	text-align:center;
 } 
@@ -1243,7 +1206,7 @@ ul.feat#about li i{
 	text-transform: uppercase;
 }
 
-/*-------- 2.3 Services--------*/
+/* Services */
 .box_style_1 {
 	padding:10px;
 	position:relative;
