@@ -504,6 +504,31 @@ header{
 nav {
 	margin-top:20px
 }
+
+/* Hero */
+.hero {
+	text-align: center;
+	background-image: url(../img/about_1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: white;
+  }
+  
+  .hero h1 {
+	font-size: 46px;
+	font-weight: 700;
+	margin-bottom: 18px;
+  }
+  
+  .hero span {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: white;
+	display: block;
+  }
+
 /* Main area */
 main {
 	background: #fff;
