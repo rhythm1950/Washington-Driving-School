@@ -244,7 +244,6 @@ a.show-submenu-mega:focus{color: rgb(0, 199, 166) !important;background-color:#f
 /* Menu mobile 3rd level */	
 .main-menu ul li.submenu ul ul{border-left:none;margin:0 0 0 15px;}
 
-
 /* Menu mobile left panel */	
 .main-menu {
 	overflow: auto;
