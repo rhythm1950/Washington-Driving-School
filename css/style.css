@@ -84,8 +84,7 @@ hr {
 			
 /*First level styles */			
 .main-menu > ul > li > a {color: #333;padding: 0 12px 20px  12px; font-size:14px; text-transform:uppercase; font-weight: 600;}
-.main-menu > ul > li:hover > a {color: #FF3333;}
-
+.main-menu > ul > li:hover > a {color: rgb(0, 199, 166);}
 
 /* Opacity mask when left open */
 .layer {
@@ -118,8 +117,7 @@ hr {
 }
 
 #close_in,#header_menu, .cmn-toggle-switch{display:none;}
-/* All styles for screen size between 992px and 1200px
-================================================== */
+/* All styles for screen size between 992px and 1200px */
 @media (min-width: 992px) and (max-width: 1200px) {
 	
 /*First level styles */			
@@ -127,8 +125,7 @@ hr {
 
 }
 		
-/* All styles for screen size over 992px
-================================================== */
+/* All styles for screen size over 992px */
 @media only screen and (min-width: 992px) {
 	
 .main-menu {width: auto;}
@@ -138,7 +135,7 @@ hr {
 .main-menu ul li.submenu:hover > a:before,
 .main-menu ul li.submenu:hover > a:after {bottom: -20px;opacity: 0;}
 		
-/* Submenu + megamenu*/
+/* Submenu + megamenu */
 .main-menu ul ul, .main-menu ul li .menu-wrapper {
 	position: absolute;
 	border-top: 2px solid #FF3333;
@@ -221,7 +218,7 @@ hr {
 a.show-submenu:hover,
 a.show-submenu:focus,
 a.show-submenu-mega:hover,
-a.show-submenu-mega:focus{color:#e04f67 !important;background-color:#f3f3f3;}	
+a.show-submenu-mega:focus{color: rgb(0, 199, 166) !important;background-color:#f3f3f3;}	
 	
 .main-menu ul li  {border-top: none;border-bottom: 1px solid #ededed;color: #fff;}
 
@@ -235,7 +232,7 @@ a.show-submenu-mega:focus{color:#e04f67 !important;background-color:#f3f3f3;}
 .main-menu a {display: block;color:#333 !important;}
 .main-menu li {position: relative;}
 	
-.main-menu a:hover {color:#FF3333 !important;}
+.main-menu a:hover {color:rgb(0, 199, 166) !important;}
 	
 .main-menu ul > li {padding-bottom: 0;}
 .main-menu ul > li i{float:right;}
