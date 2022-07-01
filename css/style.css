@@ -1749,7 +1749,3 @@ ul#contact_details_footer li#email_footer {
 #address_footer:before {
   content: "\e009";
 }
-
-#phone_footer:before {
-  content: "\e00b";
-}
