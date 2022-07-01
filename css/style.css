@@ -1733,7 +1733,6 @@ ul#contact_details_footer li#email_footer {
   padding-left: 30px;
 }
 
-#address_footer:before,
 #email_footer:before {
   font-style: normal;
 }
