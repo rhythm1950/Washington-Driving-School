@@ -1734,7 +1734,6 @@ ul#contact_details_footer li#email_footer {
 }
 
 #address_footer:before,
-#phone_footer:before,
 #email_footer:before {
   font-style: normal;
 }
