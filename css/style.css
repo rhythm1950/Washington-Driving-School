@@ -1745,7 +1745,3 @@ ul#contact_details_footer li#email_footer {
   top: -5px;
   color: #000000;
 }
-
-#address_footer:before {
-  content: "\e009";
-}
