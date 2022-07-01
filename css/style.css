@@ -1753,7 +1753,3 @@ ul#contact_details_footer li#email_footer {
 #phone_footer:before {
   content: "\e00b";
 }
-
-#email_footer:before {
-  content: "\e010";
-}
