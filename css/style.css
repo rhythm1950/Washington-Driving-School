@@ -1732,7 +1732,3 @@ ul#contact_details_footer li#email_footer {
   position: relative;
   padding-left: 30px;
 }
-
-#email_footer:before {
-  font-style: normal;
-}
